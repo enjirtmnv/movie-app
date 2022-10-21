@@ -1,3 +1,5 @@
+### Чтобы начать работу с приложением нажмите [СЮДА](https://enjirtmnv.github.io/movie-app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
