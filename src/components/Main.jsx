@@ -14,7 +14,6 @@ const Main = () => {
             setMovie(response.data.results)
         })
     }, [])
-    // console.log(movie)
 
     const truncateString = (str, num) => {
         if(str.length > num) {
