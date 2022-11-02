@@ -11,14 +11,14 @@ const Signup = () => {
     const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
-        e.preventDefault()
+        e.preventDefault();
         try {
-            await signUp(email, password);
-            navigate('/')
-        } catch(error) {
-            console.log(error);
+          await signUp(email, password);
+          navigate('/')
+        } catch (error) {
+          console.log(error);
         }
-    }
+      };
 
     return (
         <div className='w-full h-screen'>
